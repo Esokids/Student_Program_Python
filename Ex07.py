@@ -32,6 +32,7 @@ while True:
                 if j not in subjects:
                     subjects.append(j)
         # Print all unique subject
+        print('Grade of Subject')
         for i in subjects:
             print('>>> ',i)
         # Choose subject that you want to know students grade
